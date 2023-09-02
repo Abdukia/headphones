@@ -1,102 +1,4 @@
 
-
-/*  Header section ======*/
-.wrap-container{
-    background-image: url(images/headphones_hero_1.jpg);
-    width: 1345px;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: auto;
-}
-
-nav{
-    width:  1000.39px;
-    height: 31.18px;
-    margin-top: 27.76px;
-    margin-bottom: 200.61px;
-    align-self: center;   
-
-}
-
- nav ul{
-float: right;
-
-}
-
-nav ul li{
-display: inline-block;
-
-}
-
-nav ul li a{
-    color: white;
-    text-align: justify;
-    margin: 0 15px;
-    font-size: 16px;
-}
-.header-body-text{
-    align-self: center;
-    text-align: center;
-    width: 637px;
-    height: 313px;
-    left: 382px;
-    right: 372px;
-    line-height: 30px;
-
-    margin-top: auto;
-    margin-bottom: auto;
-
-}
-.header-body-text  p, h1, h4 {
-    color: white;
-    word-spacing: normal;
-}
-
-.header-body-text button {
-    margin: 20px;
-    background-color: brown;
-    width: 164px;
-    min-height: 44px;
-    
-}
-
-.header-body-text .link{
-
-    color: whitesmoke;
-    font-weight: bold;
-}
-
-/*main=============== part*/
-/* section what we do*/
-
-section {
-    display: flex;
-    flex-direction: row;
-}
-.section-icon-1{
-   width: 637px;
-   height: 104px;
-   margin-left: 382px;
-   margin-top: 80px;
-   margin-bottom: 80px;
-   text-align: center;
-   line-height: 26px; 
-   flex-wrap: wrap;
-   justify-content: center;
-}
-
-.section-icon-2{
-   width: 1002px;
-   height: 193px;
-   margin-left: 200px;
-   margin-top: 80px;
-   margin-bottom: 80px;
-   text-align: center;
-   line-height: 26px; 
-}
-
 /*Our results=============*/
 
 .background-image{
@@ -105,6 +7,9 @@ section {
     height: 650px;
     display: flex;
     flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .background-image .title{
@@ -155,5 +60,3 @@ section {
 .dot-container .p1, .p2, .p3, .p4{
     font-size: 26px;  
 }
-
-/* contact us* ==========*/
